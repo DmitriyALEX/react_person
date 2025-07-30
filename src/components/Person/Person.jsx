@@ -1,7 +1,7 @@
 export const Person = ({ person }) => {
   const { name, age, sex, isMarried, partnerName } = person
 
-  const isMarriedPerson = isMarried ? `${partnerName} is my ${sex === 'm' ? 'wife' : 'husband'}` : 'I am not married'
+  const isMarriedPerson = isMarried ? `${partnerName} is my ${sex === 'm' ? 'husband' : 'wife'}` : 'I am not married'
 
   return (
     <section className="Person">
